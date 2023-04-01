@@ -1,0 +1,38 @@
+
+body{
+    background-color:lightgoldenrodyellow;
+}
+span{
+
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+div{
+    background-color: white;
+    border: solid 1px;
+}
+
+.redDiv {
+    border: dotted 2px;
+
+    color: red;
+}
+.paragraphDotted{
+    border: dotted 2px;
+    margin: 10px;
+}
+
+.paragraphDotted mark{
+    color: red;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 10px;
+}
+p{
+    margin: 10px;
+}
