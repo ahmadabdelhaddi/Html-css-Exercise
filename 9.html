@@ -8,15 +8,24 @@
     <title>Document</title>
 
     <style>
+        label{
+            
+        }
         input{
             position: absolute;
-            left: 50px;
-           margin-left: 52px;
+            left: 100px;
+            width: 150px;
+           /* margin-left: 52px; */
         }
         /* .gender{
             position: relative;
 
         } */
+        fieldset{
+            background-color: #fdf2b5;
+        }
+      
+
     </style>
 </head>
 <body>
@@ -32,13 +41,22 @@
   <input type="text" id="lname" name="lname"><br><br>
   <label for="email">Email:</label>
   <input type="email" id="email" name="email"><br><br>
-  <label  class="gender">Gender  
-  <label>Male</label>
-  <input type="radio" value="Male">
-  <label >Female</label>
-  <input type="radio" value="Female" >
 
-</label>
+
+
+
+    <label   class="gender">Gender </label>
+<div>
+        <label>Male</label>
+        <input type="radio" value="Male">
+    </div>
+    <div>
+        <label >Female</label>
+        <input type="radio" value="Female" >
+    </div>
+  
+
+
 </fieldset>
 
 
